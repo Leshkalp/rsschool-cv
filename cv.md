@@ -6,4 +6,4 @@
 
 4. ##### **Contact TG:** @aleshka_mnsk
 
-[Instragram]("instagram.com/leshka_lp")
+[Instragram]("https://www.instagram.com/leshkalp")
