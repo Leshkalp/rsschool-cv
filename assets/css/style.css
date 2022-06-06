@@ -1,0 +1,182 @@
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   ont-family: 'Open Sans',
+      sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.container {
+   max-width: 1090px;
+   padding: 0 10px;
+   margin: 0 auto;
+}
+
+.header {
+   margin-bottom: 50px;
+}
+
+.title {
+   text-transform: uppercase;
+   color: rgba(3, 91, 20, 0.464);
+   letter-spacing: 3px;
+   margin-bottom: 20px;
+
+}
+
+.menu {
+   background-color: rgba(3, 91, 20, 0.464);
+   height: 40px;
+   padding: 10px;
+   margin-bottom: 50px;
+}
+
+.menu__list {
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.menu__links {
+   margin-right: 25px;
+   color: #FFF;
+   font-size: 20px;
+}
+
+.menu__links:hover {
+   color: yellow;
+   transition: color 1s;
+}
+
+.menu__links:last-child {
+   margin-right: 0;
+}
+
+.header__wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.header__image {
+   width: 300px;
+   border-radius: 50%;
+}
+
+.header__descr {
+   text-align: center;
+}
+
+.header__descr-title {
+   font-size: 70px;
+   color: #000;
+   display: block;
+   margin-bottom: 40px;
+
+   width: 800px;
+   text-align: center;
+}
+
+.header__descr-text {
+   font-size: 30px;
+   margin-bottom: 40px;
+}
+
+ul.header__info-icons {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.header__info-list {
+   margin-right: 10px;
+}
+
+.header__info-links svg:hover {
+   fill: rgba(3, 91, 20, 0.464);
+   transition: fill .5s;
+}
+
+.header__phone,
+.header__mail {
+   display: block;
+   color: inherit;
+}
+
+.header__phone:hover,
+.header__mail:hover {
+   color: rgba(3, 91, 20, 0.464);
+   transition: color .5s;
+}
+
+.border {
+   height: 10px;
+   background-color: rgba(3, 91, 20, 0.464);
+   width: 100%;
+   margin-bottom: 50px;
+}
+
+.bio__wrapper {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 50px;
+}
+
+.skills__item span,
+.languages__item span {
+   color: rgba(3, 91, 20, 0.464);
+}
+
+.education {
+   max-width: 300px;
+   width: 100%;
+}
+
+.summary {
+   margin-bottom: 50px;
+}
+
+
+.code {
+   max-width: 300px;
+   width: 100%;
+}
+
+.footer{
+   background-color: rgba(3, 91, 20, 0.464);
+   padding: 20px;
+}
+
+.footer__copy{
+   color: #FFF;
+   font-size: 13px;
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.footer__link{
+   color: #FFF;
+   display: inline-block;
+}
+
+.footer__link:hover{
+   color: yellow;
+   transition: color .5s;
+}
+
+.footer__inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer__img{
+   max-width: 100px;
+   width: 100%;
+   display: block;
+}
