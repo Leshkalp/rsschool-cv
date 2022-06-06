@@ -13,4 +13,4 @@
 
 ### About me ###
 -------------
-My Name IS Alex. I'm new fronted developer from Minsk. 
+My Name is Alex. I'm new fronted developer from Minsk. 
