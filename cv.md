@@ -1,4 +1,4 @@
-![](/assets/img/23.jpg)
+# ![](/assets/img/cv.jpg) #
 
 
 1. ##### **Name:** Alex
@@ -10,3 +10,7 @@
 4. ##### **Contact TG:** @aleshka_mnsk
 
 [Instragram](https://www.instagram.com/leshkalp)
+
+### About me ###
+
+My Name IS Alex. I'm new fronted developer from Minsk. 
