@@ -3,16 +3,20 @@ html {
 }
 
 body {
-   ont-family: 'Open Sans',
-      sans-serif;
+   font-family: 'Open Sans',
+   sans-serif;
    font-weight: 300;
    font-style: normal;
    font-size: 16px;
    line-height: 24px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 100vh;
 }
 
 .container {
-   max-width: 1090px;
+   max-width: 1190px;
    padding: 0 10px;
    margin: 0 auto;
 }
@@ -26,7 +30,6 @@ body {
    color: rgba(3, 91, 20, 0.464);
    letter-spacing: 3px;
    margin-bottom: 20px;
-
 }
 
 .menu {
@@ -60,11 +63,12 @@ body {
 
 .header__wrapper {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
 }
 
 .header__image {
-   width: 300px;
+   max-width: 300px;
+   width: 100%;
    border-radius: 50%;
 }
 
@@ -77,8 +81,8 @@ body {
    color: #000;
    display: block;
    margin-bottom: 40px;
-
-   width: 800px;
+   max-width: 800px;
+   width: 100%;
    text-align: center;
 }
 
@@ -138,16 +142,16 @@ ul.header__info-icons {
    width: 100%;
 }
 
-.education__text{
+.education__text {
    margin-bottom: 10px;
 }
 
-.education__courses{
+.education__courses {
    font-size: 20px;
    color: rgba(3, 91, 20, 0.464);
 }
 
-.education__link{
+.education__link {
    color: inherit;
 }
 
@@ -161,36 +165,47 @@ ul.header__info-icons {
    width: 100%;
 }
 
-.footer{
+.footer {
    background-color: rgba(3, 91, 20, 0.464);
    padding: 20px;
 }
 
-.footer__copy{
+.footer__copy {
    color: #FFF;
    font-size: 13px;
    display: inline-block;
    margin-right: 10px;
 }
 
-.footer__link{
+.footer__link {
    color: #FFF;
    display: inline-block;
 }
 
-.footer__link:hover{
+.footer__link:hover {
    color: yellow;
    transition: color .5s;
 }
 
-.footer__inner{
+.footer__inner {
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
 
-.footer__img{
+.footer__img {
    max-width: 100px;
    width: 100%;
    display: block;
+}
+
+
+@media screen and (max-width: 992px) {
+   .header__descr-title {
+     font-size: 35px;
+   }
+   .header__descr-text{
+      font-size: 20px;
+      margin-bottom: 20px;
+   }
 }
